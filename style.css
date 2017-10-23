@@ -1,0 +1,57 @@
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #333;
+	animation-name: fundotela;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-delay: 3s;
+	z-index: 1;
+}
+@keyframes fundotela {
+	from {background-color: #333;}
+    to {background-color: #eee;}
+    }
+.tela{
+	position: relative;
+	top: 100px;
+	width: 600px;
+	height: 300px;
+/*	background-color: #fff;*/
+}
+.supreme{
+	position: absolute;
+	top: 80px;
+	left: 130px;
+	width: 360px;
+	height: 120px;
+	background-color: #f00;
+	animation-name: fundo;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-delay: 3s;
+	z-index: 1;
+}
+@keyframes fundo {
+	from {background-color: #f00;}
+    to {background-color: #000;}
+}
+h1{
+	position: absolute;
+	top:-65px;
+	left: 4px;
+	text-align: center;
+	font-family: Futura Std;
+	font-size: 90px;
+	color: #fff;
+/*	animation-name: fonte;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-delay: 1s;
+	z-index: 2;
+}
+@keyframes fonte{
+	50% from {background-color: #fff;}
+    50% to {background-color: #fff;}*/
+}
